@@ -92,7 +92,7 @@ export default {
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
-    extend(config, ctx) {
+    extend(config: any, ctx: any) {
       // Run ESLint on save
       if (ctx.isDev && ctx.isClient) {
         config.module.rules.push({
@@ -103,5 +103,10 @@ export default {
         })
       }
     }
+  },
+
+  typescript: {
+    typeCheck: true,
+    ignoreNotFoundWarnings: true
   }
 }
