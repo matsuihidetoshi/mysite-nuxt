@@ -40,9 +40,10 @@
   </div>
 </template>
 <script>
+import { Component, Vue } from 'nuxt-property-decorator'
 import Name from '~/components/Name.vue'
 
-export default {
+@Component({
   components: {
     Name
   },
@@ -74,5 +75,7 @@ export default {
       return process.env.baseUrl
     }
   }
-}
+})
+
+export default class Detail extends Vue { }
 </script>
