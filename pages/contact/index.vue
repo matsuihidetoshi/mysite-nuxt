@@ -116,12 +116,15 @@
 
     <v-snackbar
       v-model="snackbar"
+      color="blue-grey"
       top
     >
       {{ message }}
       <template v-slot:action="{ attrs }">
         <v-btn
-          class="warning"
+          class="
+            warning
+          "
           text
           v-bind="attrs"
           @click="snackbar = false"
@@ -133,10 +136,11 @@
   </div>
 </template>
 <script>
+import { Component, Vue } from 'nuxt-property-decorator'
 import axios from 'axios'
 import PrivacyPolicy from '~/components/PrivacyPolicy.vue'
 
-export default {
+@Component({
   name: 'Contact',
   components: {
     PrivacyPolicy
@@ -191,7 +195,9 @@ export default {
       })
     }
   }
-}
+})
+
+export default class Index extends Vue { }
 </script>
 <style scoped>
 .breakLine {
