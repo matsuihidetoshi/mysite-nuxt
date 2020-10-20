@@ -88,10 +88,11 @@
   </v-row>
 </template>
 <script>
+import { Component, Vue } from 'nuxt-property-decorator'
 import Name from '~/components/Name.vue'
 import descriptions from '~/data/descriptions.json'
 
-export default {
+@Component({
   components: {
     Name
   },
@@ -100,5 +101,7 @@ export default {
       descriptions
     }
   }
-}
+})
+
+export default class Index extends Vue { }
 </script>
