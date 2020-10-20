@@ -22,7 +22,9 @@
 </template>
 
 <script>
-export default {
+import { Component, Vue } from 'nuxt-property-decorator'
+
+@Component({
   props: {
     message: {
       type: String,
@@ -60,7 +62,9 @@ export default {
       })
     }
   }
-}
+})
+
+export default class Name extends Vue { }
 </script>
 
 <style>
