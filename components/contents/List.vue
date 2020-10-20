@@ -82,9 +82,10 @@
   </div>
 </template>
 <script>
+import { Component, Vue } from 'nuxt-property-decorator'
 import Name from '~/components/Name.vue'
 
-export default {
+@Component({
   components: {
     Name
   },
@@ -127,5 +128,7 @@ export default {
       this.pageLength = Math.ceil(contents.length / this.limit)
     }
   }
-}
+})
+
+export default class List extends Vue { }
 </script>
