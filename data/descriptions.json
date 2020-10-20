@@ -1,0 +1,47 @@
+[
+  {
+    "title": "About",
+    "image": "/profile_thumbnail.png",
+    "lines": [
+      "静岡県浜松市在住のWeb開発者 松井英俊のWebサイトです。",
+      "日々の記録、仕事や取り組み、使用技術などについて紹介します。",
+      "下記ボタンより自己紹介をご覧いただけます。"
+    ],
+    "link": "/profile"
+  },
+  {
+    "title": "制作物",
+    "image": "/flowerpark.png",
+    "lines": [
+      "Webアプリケーションを中心に開発・運用に携わってきました。",
+      "こちらでは個人的な開発プロジェクトについて紹介します。"
+    ],
+    "link": "/works"
+  },
+  {
+    "title": "メディア掲載",
+    "image": "/publications.png",
+    "lines": [
+      "今までの開発プロジェクトなどの取り組みを各種メディアでご紹介いただきました。",
+      "詳しくは下記ボタンよりご覧ください。"
+    ],
+    "link": "/publications"
+  },
+  {
+    "title": "日記",
+    "image": "articles.png",
+    "lines": [
+      "技術や日々の活動、日常生活について綴っています。",
+      "詳しくは下記ボタンよりご覧ください。"
+    ],
+    "link": "/articles"
+  },
+  {
+    "title": "お問い合わせ",
+    "image": "contact.png",
+    "lines": [
+      "お問い合わせは下記ボタンよりお願いいたします。"
+    ],
+    "link": "/contact"
+  }
+]
