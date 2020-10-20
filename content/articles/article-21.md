@@ -1,6 +1,6 @@
 ---
 title: test記事
-id: built-new-web-site
+id: built-new-web-site2
 image: articles.png
 description: nuxt/content を使用して、vue-cli + APIで構築していたWebサイトをリプレイスしました
 date: 2020-10-21
