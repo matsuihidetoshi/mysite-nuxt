@@ -86,6 +86,10 @@ export default {
     baseUrl: process.env.BASE_URL || 'http://localhost:3000'
   },
 
+  router: {
+    middleware: 'redirect'
+  },
+
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
     extend(config, ctx) {
