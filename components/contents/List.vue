@@ -15,7 +15,9 @@
       @input="getContentList()"
     />
 
-    <v-row>
+    <v-row
+      v-if="contents.length > 0"
+    >
       <v-col
         v-for="(content, index) in contents"
         :key="index"
@@ -51,6 +53,23 @@
             </v-card-text>
           </v-card>
         </nuxt-link>
+      </v-col>
+    </v-row>
+
+    <v-row
+      v-else
+    >
+      <v-col
+        xs="12"
+        sm="6"
+        md="4"
+        class="pa-3"
+      >
+        <v-card>
+          <v-card-title>
+            <name message="No posts yet." />
+          </v-card-title>
+        </v-card>
       </v-col>
     </v-row>
 
@@ -113,6 +132,8 @@ import Name from '~/components/Name.vue'
   mounted () {
     this.getContentList().then(() => {
       this.getTotalLength()
+    }).catch(() => {
+    }).finally(() => {
       this.overlay = false
       this.loaded = true
     })

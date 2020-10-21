@@ -1,6 +1,6 @@
 <template>
   <detail
-    content-type="articles"
+    content-type="works"
     :content-id="$route.params.id"
   />
 </template>

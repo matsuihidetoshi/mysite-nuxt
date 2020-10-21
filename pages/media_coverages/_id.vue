@@ -1,6 +1,6 @@
 <template>
   <detail
-    content-type="articles"
+    content-type="media_coverages"
     :content-id="$route.params.id"
   />
 </template>

@@ -1,7 +1,7 @@
 <template>
   <detail
     content-type="articles"
-    :content-id="$route.params.id"
+    content-id="1"
   />
 </template>
 <script>

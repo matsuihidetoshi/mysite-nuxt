@@ -24,6 +24,8 @@
             :label="content.label"
           />
 
+          <p>下記プライバシーポリシーにご同意いただきました上、お問い合わせください。</p>
+
           <PrivacyPolicy />
 
           <v-btn

@@ -1,10 +1,23 @@
 <template>
   <div>
     <h1>
-      <name v-if="content" :message="content.title" />
+      <name
+        v-if="content"
+        :message="content.title"
+      />
     </h1>
-    <name v-if="content" :message="new Date(content.date).toLocaleDateString()" />
-    <nuxt-content v-if="content" :document="content" />
+
+    <name
+      v-if="content"
+      :message="
+        new Date(content.date).toLocaleDateString()
+      "
+    />
+
+    <nuxt-content
+      v-if="content"
+      :document="content"
+    />
 
     <v-btn
       class="
@@ -51,6 +64,10 @@ import Name from '~/components/Name.vue'
     contentType: {
       type: String,
       required: true
+    },
+    contentId: {
+      type: String,
+      required: true
     }
   },
   data () {
@@ -69,7 +86,7 @@ import Name from '~/components/Name.vue'
   },
   methods: {
     async getContent () {
-      return await this.$content(this.contentType).where({ id: this.$route.params.id }).fetch()
+      return await this.$content(this.contentType).where({ id: this.contentId }).fetch()
     },
     baseUrl () {
       return process.env.baseUrl
