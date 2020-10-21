@@ -10,7 +10,7 @@
                   class="ml-5"
                   size="90"
                 >
-                  <v-img src="/profile.png" />
+                  <v-img src="/profile.webp" />
                 </v-avatar>
               </v-col>
               <v-col cols="8">
