@@ -1,17 +1,17 @@
 [
   {
     "title": "About",
-    "image": "/profile_thumbnail.png",
+    "image": "/about.png",
     "lines": [
       "静岡県浜松市在住のWeb開発者 松井英俊のWebサイトです。",
       "日々の記録、仕事や取り組み、使用技術などについて紹介します。",
       "こちらより自己紹介をご覧いただけます。"
     ],
-    "link": "/profile"
+    "link": "/about"
   },
   {
     "title": "制作物",
-    "image": "/flowerpark.png",
+    "image": "/works.png",
     "lines": [
       "Webアプリケーションを中心に開発・運用に携わってきました。",
       "こちらでは個人的な開発プロジェクトについて紹介します。"

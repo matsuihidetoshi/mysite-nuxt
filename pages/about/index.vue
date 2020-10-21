@@ -1,7 +1,8 @@
 <template>
   <detail
-    content-type="articles"
-    content-id="1"
+    content-type="about"
+    content-id="index"
+    :return-to-list="false"
   />
 </template>
 <script>

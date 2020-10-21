@@ -31,6 +31,7 @@
     </v-btn>
 
     <v-btn
+      v-if="returnToList"
       class="
         mt-3
         mb-3
@@ -68,6 +69,10 @@ import Name from '~/components/Name.vue'
     contentId: {
       type: String,
       required: true
+    },
+    returnToList: {
+      type: Boolean,
+      default: true
     }
   },
   data () {
