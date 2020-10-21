@@ -76,12 +76,16 @@ date: 2020-10-21
 
 <br>
 
-<img
-  src="/hobby.png"
-  width="100%"
-  height="300px"
-  style="object-fit:cover;"
-/>
+<div class="row">
+  <div class="col-xs-12 col-sm-8">
+    <img
+      src="/hobby.png"
+      width="100%"
+      height="450px"
+      style="object-fit:cover;"
+    />
+  </div>
+</div>
 
 - ドライブ
   - 現在の愛車は **BMW 630i (E63)**
