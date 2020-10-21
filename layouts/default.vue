@@ -76,7 +76,7 @@ export default {
         {
           icon: 'mdi-camera',
           title: 'メディア掲載',
-          to: '/publications'
+          to: '/media_coverages'
         },
         {
           icon: 'mdi-newspaper-variant-multiple-outline',
