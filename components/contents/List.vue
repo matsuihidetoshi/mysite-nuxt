@@ -60,9 +60,6 @@
       v-else
     >
       <v-col
-        xs="12"
-        sm="6"
-        md="4"
         class="pa-3"
       >
         <v-card>
