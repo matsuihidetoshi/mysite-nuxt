@@ -70,120 +70,120 @@ export default class Name extends Vue { }
 <style>
 .fade--1 {
   opacity: 0;
-  animation-duration: 2s;
-  animation-delay : 0.1s;
+  animation-duration: 1s;
+  animation-delay : 0.05s;
   animation-name: fadein;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
 .fade--2 {
   opacity: 0;
-  animation-duration: 2s;
-  animation-delay : 0.2s;
+  animation-duration: 1s;
+  animation-delay : 0.1s;
   animation-name: fadein;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
 .fade--3 {
   opacity: 0;
-  animation-duration: 2s;
-  animation-delay : 0.3s;
+  animation-duration: 1s;
+  animation-delay : 0.15s;
   animation-name: fadein;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
 .fade--4 {
   opacity: 0;
-  animation-duration: 2s;
-  animation-delay : 0.4s;
+  animation-duration: 1s;
+  animation-delay : 0.2s;
   animation-name: fadein;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
 .fade--5 {
   opacity: 0;
-  animation-duration: 2s;
-  animation-delay : 0.5s;
+  animation-duration: 1s;
+  animation-delay : 0.25s;
   animation-name: fadein;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
 .fade--6 {
   opacity: 0;
-  animation-duration: 2s;
-  animation-delay : 0.6s;
+  animation-duration: 1s;
+  animation-delay : 0.3s;
   animation-name: fadein;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
 .fade--7 {
   opacity: 0;
-  animation-duration: 2s;
-  animation-delay : 0.7s;
+  animation-duration: 1s;
+  animation-delay : 0.35s;
   animation-name: fadein;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
 .fade--8 {
   opacity: 0;
-  animation-duration: 2s;
-  animation-delay : 0.8s;
+  animation-duration: 1s;
+  animation-delay : 0.4s;
   animation-name: fadein;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
 .fade--9 {
   opacity: 0;
-  animation-duration: 2s;
-  animation-delay : 0.9s;
+  animation-duration: 1s;
+  animation-delay : 0.45s;
   animation-name: fadein;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
 .fade--10 {
   opacity: 0;
-  animation-duration: 2s;
-  animation-delay : 1s;
+  animation-duration: 1s;
+  animation-delay : 0.5s;
   animation-name: fadein;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
 .fade--11 {
   opacity: 0;
-  animation-duration: 2s;
-  animation-delay : 1.1s;
+  animation-duration: 1s;
+  animation-delay : 0.55s;
   animation-name: fadein;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
 .fade--12 {
   opacity: 0;
-  animation-duration: 2s;
-  animation-delay : 1.2s;
+  animation-duration: 1s;
+  animation-delay : 0.6s;
   animation-name: fadein;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
 .fade--13 {
   opacity: 0;
-  animation-duration: 2s;
-  animation-delay : 1.3s;
+  animation-duration: 1s;
+  animation-delay : 0.65s;
   animation-name: fadein;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
 .fade--14 {
   opacity: 0;
-  animation-duration: 2s;
-  animation-delay : 1.4s;
+  animation-duration: 1s;
+  animation-delay : 0.7s;
   animation-name: fadein;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
 .fade--15 {
   opacity: 0;
-  animation-duration: 2s;
-  animation-delay : 1.5s;
+  animation-duration: 1s;
+  animation-delay : 0.75s;
   animation-name: fadein;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
