@@ -76,16 +76,19 @@
       @input="getContentList()"
     />
 
-    <v-btn
-      to="/"
-      class="
-        mt-3
-        mb-3
-        float-right
-      "
-    >
-      back
-    </v-btn>
+    <v-row>
+      <v-spacer />
+
+      <v-btn
+        to="/"
+        class="
+          mt-2
+          mr-3
+        "
+      >
+        back
+      </v-btn>
+    </v-row>
 
     <v-overlay :value="overlay">
       <v-progress-circular

@@ -7,39 +7,63 @@
         <h1>
           <name message="お問い合わせ" />
         </h1>
-        <v-form
-          v-model="valid"
+
+        <v-card
+          class="pa-4"
         >
-          <v-text-field
-            v-model="title.value"
-            :rules="title.rules"
-            :label="title.label"
-          />
-          <v-text-field
-            v-model="contact.value"
-            :rules="contact.rules"
-            :label="contact.label"
-          />
-          <v-textarea
-            v-model="content.value"
-            :rules="content.rules"
-            :label="content.label"
-          />
-
-          <p>下記プライバシーポリシーにご同意いただきました上、お問い合わせください。</p>
-
-          <PrivacyPolicy />
-
-          <v-btn
-            block
-            color="success"
-            class="font-weight-bold"
-            @click="dialog = true"
+          <v-form
+            v-model="valid"
           >
-            同意して送信する
-          </v-btn>
-        </v-form>
+            <v-text-field
+              v-model="title.value"
+              :rules="title.rules"
+              :label="title.label"
+            />
+
+            <v-text-field
+              v-model="contact.value"
+              :rules="contact.rules"
+              :label="contact.label"
+            />
+
+            <v-textarea
+              v-model="content.value"
+              :rules="content.rules"
+              :label="content.label"
+            />
+
+            <p>下記プライバシーポリシーにご同意いただきました上、お問い合わせください。</p>
+
+            <PrivacyPolicy />
+
+            <v-btn
+              block
+              color="success"
+              class="
+                font-weight-bold
+                mt-3
+              "
+              @click="dialog = true"
+            >
+              同意して送信する
+            </v-btn>
+          </v-form>
+        </v-card>
       </v-col>
+    </v-row>
+
+    <v-row>
+      <v-spacer />
+
+      <v-btn
+        to="/"
+        class="
+          mt-2
+          mr-6
+        "
+      >
+        back
+      </v-btn>
     </v-row>
 
     <v-dialog
@@ -56,18 +80,23 @@
           <h4>
             {{ title.label }}
           </h4>
+
           <p>
             {{ title.value }}
           </p>
+
           <h4>
             {{ contact.label }}
           </h4>
+
           <p>
             {{ contact.value }}
           </p>
+
           <h4>
             {{ content.label }}
           </h4>
+
           <p
             class="
               breakLine
@@ -77,12 +106,14 @@
             {{ content.value }}
           </p>
         </v-card-text>
+
         <v-btn
           class="warning"
           @click="dialog = false"
         >
           戻る
         </v-btn>
+
         <v-btn
           class="success float-right"
           @click="post(); dialog = false"
@@ -90,6 +121,7 @@
           送信
         </v-btn>
       </v-card>
+
       <v-card
         v-if="!valid"
         class="pa-3"
@@ -99,6 +131,7 @@
         >
           お問い合わせ内容を正しく入力してください。
         </v-card-text>
+
         <v-btn
           class="warning"
           @click="dialog = false"

@@ -19,29 +19,30 @@
       :document="content"
     />
 
-    <v-btn
-      class="
-        mt-3
-        mb-3
-        float-right
-      "
-      to="/"
-    >
-      top
-    </v-btn>
+    <v-row>
+      <v-spacer />
 
-    <v-btn
-      v-if="returnToList"
-      class="
-        mt-3
-        mb-3
-        mr-3
-        float-right
-      "
-      :to="'/' + contentType"
-    >
-      {{ contentType }}
-    </v-btn>
+      <v-btn
+        v-if="returnToList"
+        class="
+          mt-2
+          mr-3
+        "
+        :to="'/' + contentType"
+      >
+        {{ contentType }}
+      </v-btn>
+
+      <v-btn
+        class="
+          mt-2
+          mr-3
+        "
+        to="/"
+      >
+        top
+      </v-btn>
+    </v-row>
 
     <v-overlay :value="overlay">
       <v-progress-circular
