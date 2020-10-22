@@ -4,7 +4,9 @@
       <v-col
         cols="12"
       >
-        <h1>お問い合わせ</h1>
+        <h1>
+          <name message="お問い合わせ" />
+        </h1>
         <v-form
           v-model="valid"
         >
