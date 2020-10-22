@@ -90,6 +90,13 @@ export default {
     middleware: 'redirect'
   },
 
+  pwa: {
+    manifest: {
+      name: 'Matsui Hidetoshi',
+      short_name: 'Matsui, H.'
+    }
+  },
+
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
     extend(config: any, ctx: any) {
