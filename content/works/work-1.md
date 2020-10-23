@@ -3,7 +3,7 @@ title: このサイト
 id: mysite
 image: /works/mysite.png
 description: このサイトの作成の経緯や構成についての説明
-date: 2020-10-23
+date: 2020-10-24 00:00:00
 ---
 
 ***
