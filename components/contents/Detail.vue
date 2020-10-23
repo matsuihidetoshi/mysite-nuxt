@@ -40,7 +40,7 @@
         "
         to="/"
       >
-        top
+        home
       </v-btn>
     </v-row>
 

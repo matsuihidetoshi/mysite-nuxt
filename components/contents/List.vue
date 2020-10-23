@@ -86,7 +86,7 @@
           mr-3
         "
       >
-        back
+        home
       </v-btn>
     </v-row>
 

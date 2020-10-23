@@ -43,7 +43,7 @@ date: 2020-10-21
   - さらにWeb制作会社に転職し、ECサイト・業務システムなどの保守、開発のクライアントワークに従事
   - オンラインプログラミングスクール **TechAcademy** のメンターも務める
 - 個人的な活動として
-  - [**浜松市ハッカソン** の助っ人](/works)としてWebアプリケーションの設計、構築を担当
+  - [**浜松市ハッカソン**](https://jellyware.jp/hamamatsuhack/)の助っ人として[Webアプリケーションの設計、構築](/works)を担当
   - コロナウイルスの影響で苦しむ飲食店を救うために[飲食店のテイクアウト・デリバリー支援サイトを開設](https://www.nhk.or.jp/gendai/comment/0015/topic002.html)
   - [**新型コロナウイルス感染症対策サイト**](https://stopcovid19.code4hamamatsu.org/) のオープンソースプロジェクトに参画
   - [**AWS(Amazon Web Services)**](https://aws.amazon.com/) の公式Webマガジン [**builders.flash**](https://aws.amazon.com/jp/builders-flash/) に[記事](https://aws.amazon.com/jp/builders-flash/202008/amplify-crud-app/)を寄稿。
