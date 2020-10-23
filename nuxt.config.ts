@@ -86,10 +86,6 @@ export default {
     baseUrl: process.env.BASE_URL || 'http://localhost:3000'
   },
 
-  router: {
-    middleware: 'redirect'
-  },
-
   pwa: {
     manifest: {
       name: 'Matsui Hidetoshi',

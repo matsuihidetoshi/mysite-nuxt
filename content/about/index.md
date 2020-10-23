@@ -1,7 +1,7 @@
 ---
 title: About
 id: index
-image: profile.png
+image: /profile.png
 description: Self-introduction
 date: 2020-10-21
 ---
@@ -78,7 +78,7 @@ date: 2020-10-21
 <br>
 
 <img
-  src="/hobby.png"
+  src="/about/hobby.png"
   width="100%"
   height="10%"
   style="object-fit:cover;"

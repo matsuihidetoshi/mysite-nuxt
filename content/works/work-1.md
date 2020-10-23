@@ -1,14 +1,14 @@
 ---
 title: このサイト
 id: mysite
-image: mysite.png
+image: /works/mysite.png
 description: このサイトの作成の経緯や構成についての説明
 date: 2020-10-23
 ---
 
 ***
 
-<img src="/mysite.png" width="100%">
+<img src="/works/mysite.png" width="100%">
 
 ***
 
@@ -57,7 +57,7 @@ date: 2020-10-23
 
 <br>
 
-<img src="/mysite_architecture.png" width="100%">
+<img src="/works/mysite_architecture.png" width="100%">
 
 ### 詳細解説
 

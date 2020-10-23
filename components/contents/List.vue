@@ -27,7 +27,7 @@
         class="pa-3"
       >
         <nuxt-link
-          :to="contentType + '/' + content.id"
+          :to="'/' +contentType + '/' + content.id"
         >
           <v-card
             v-ripple
