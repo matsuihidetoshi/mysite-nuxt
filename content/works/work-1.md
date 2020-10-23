@@ -26,7 +26,7 @@ date: 2020-10-23
 
 <br>
 
-## 作成経緯
+## 制作経緯
 
 ***
 
@@ -114,6 +114,7 @@ date: 2020-10-23
           - npm install
       build:
         commands:
+          - npm run build
           - npm run generate
     artifacts:
       # IMPORTANT - Please verify your build output directory

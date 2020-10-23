@@ -30,7 +30,7 @@
         "
         :to="'/' + contentType"
       >
-        {{ contentType }}
+        back
       </v-btn>
 
       <v-btn
