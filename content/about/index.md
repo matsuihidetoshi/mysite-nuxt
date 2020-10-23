@@ -37,15 +37,15 @@ date: 2020-10-21
   - 20代の後半に差し掛かるまで、名古屋・大阪・静岡などを中心に渡り歩く
   - 営業や建築・土木作業現場・太陽光パネル設置作業など様々な職種を経験
   - この時期にアジアを中心に海外経験も積む
-- エンジニアとしてのキャリアの始まり
+- エンジニアとしてのキャリア
   - それまでに培った人脈から、東京にてベンチャー企業の創業期にジョインし、ECサイト・コーポレートサイト・社内システムなどを **Ruby on Rails** を使用し構築・運用
   - その後、地元（静岡県浜松市）企業にてオンプレミスのITインフラ構築に従事
   - さらにWeb制作会社に転職し、ECサイト・業務システムなどの保守、開発のクライアントワークに従事
   - オンラインプログラミングスクール **TechAcademy** のメンターも務める
 - 個人的な活動として
-  - [**浜松市ハッカソン**](https://jellyware.jp/hamamatsuhack/)の助っ人として[Webアプリケーションの設計、構築](/works)を担当
-  - コロナウイルスの影響で苦しむ飲食店を救うために[飲食店のテイクアウト・デリバリー支援サイトを開設](https://www.nhk.or.jp/gendai/comment/0015/topic002.html)
-  - [**新型コロナウイルス感染症対策サイト**](https://stopcovid19.code4hamamatsu.org/) のオープンソースプロジェクトに参画
+  - [**浜松市ハッカソン**](https://jellyware.jp/hamamatsuhack/)の助っ人として[Webアプリケーションの設計、構築](/works/flowerpark)を担当
+  - コロナウイルスの影響で苦しむ飲食店を救うために[飲食店のテイクアウト・デリバリー支援サイトを開設、下記対策サイトの取り組みもありNHKの取材](https://www.nhk.or.jp/gendai/comment/0015/topic002.html)を受ける
+  - [**浜松市新型コロナウイルス感染症対策サイト**](https://stopcovid19.code4hamamatsu.org/) のオープンソースプロジェクトに参画
   - [**AWS(Amazon Web Services)**](https://aws.amazon.com/) の公式Webマガジン [**builders.flash**](https://aws.amazon.com/jp/builders-flash/) に[記事](https://aws.amazon.com/jp/builders-flash/202008/amplify-crud-app/)を寄稿。
 
 <br>
