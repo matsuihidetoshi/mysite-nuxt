@@ -43,7 +43,7 @@
                 ml-2
               "
             >
-              <name :message="content.title" />
+              <name :message="$truncate(content.title, 12)" />
             </v-card-title>
 
             <v-card-text
