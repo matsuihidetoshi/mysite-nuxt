@@ -45,7 +45,7 @@
       :absolute="!fixed"
       app
     >
-      <span>&copy; {{ new Date().getFullYear() }}</span>
+      <span>&copy; {{ new Date().getFullYear() }} &nbsp; Matsui Hidetoshi</span>
     </v-footer>
   </v-app>
 </template>

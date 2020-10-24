@@ -18,6 +18,7 @@
                   class="
                     text-left
                     mt-4
+                    ml-1
                   "
                 >
                   <name
