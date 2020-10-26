@@ -6,6 +6,6 @@ declare module 'vue/types/vue' {
   }
 }
 
-Vue.prototype.$truncate = (message: string, length: number) => {
+Vue.prototype.$truncate = (message: string, length: number): string => {
   return message.length <= length ? message : (message.substr(0, length) + "...")
 }
