@@ -51,49 +51,23 @@
 </template>
 
 <script>
-export default {
+import { Component, Vue } from 'nuxt-property-decorator'
+import items from '~/data/items.json'
+
+@Component({
   data () {
     return {
       clipped: true,
       drawer: false,
       fixed: true,
-      items: [
-        {
-          icon: 'mdi-apps',
-          title: 'Home',
-          to: '/'
-        },
-        {
-          icon: 'mdi-information-outline',
-          title: 'About',
-          to: '/about'
-        },
-        {
-          icon: 'mdi-wrench',
-          title: '制作物',
-          to: '/works'
-        },
-        {
-          icon: 'mdi-camera',
-          title: 'メディア掲載',
-          to: '/media_coverages'
-        },
-        {
-          icon: 'mdi-newspaper-variant-multiple-outline',
-          title: '日記',
-          to: '/articles'
-        },
-        {
-          icon: 'mdi-comment-text-outline',
-          title: 'お問い合わせ',
-          to: '/contact'
-        }
-      ],
+      items,
       miniVariant: false,
       right: true,
       rightDrawer: false,
       title: 'Matsui Hidetoshi'
     }
   }
-}
+})
+
+export default class Default extends Vue { }
 </script>
