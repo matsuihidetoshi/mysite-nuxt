@@ -85,6 +85,14 @@
           </v-row>
         </v-card-text>
       </v-card>
+
+      <v-card
+        class="pa-16"
+      >
+        <v-img
+          src="/mysite_qr.png"
+        />
+      </v-card>
     </v-col>
   </v-row>
 </template>
