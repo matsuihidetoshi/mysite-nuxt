@@ -1,0 +1,64 @@
+{
+  "about": {
+    "index": {
+      "title": "自己紹介",
+      "description": "静岡県浜松市のWeb開発者 松井英俊の自己紹介",
+      "url": "",
+      "image": "profile.png"
+    }
+  },
+  "articles": {
+    "built-new-web-site": {
+      "title": "Webサイトリプレイス",
+      "description": "nuxt/content を使用して、vue-cli + APIで構築していたWebサイトをリプレイスした",
+      "url": "built-new-web-site",
+      "image": "articles.png"
+    },
+    "s3-cloudfront-cli-hosting": {
+      "title": "S3 + CloudFrontをAmplify CLIから構成してNuxt.js製SPAを最低限動かす",
+      "description": "Amplify CLI の方から add hosting でデプロイしようとしたら結構ハマった",
+      "url": "s3-cloudfront-cli-hosting",
+      "image": "s3-cloudfront-cli-hosting.png"
+    }
+  },
+  "media_coverages": {
+    "covid-19": {
+      "title": "新型コロナウイルス感染症に関する一連の対策",
+      "description": "新型コロナ対策の一連の動きについてのNHKによる取材",
+      "url": "covid-19",
+      "image": "covid-19.png"
+    },
+    "builders-flash-1": {
+      "title": "AWS builders.flash✨ 掲載 その1",
+      "description": "Amplify + Vue.js を活用したハンズオンの実施と、AWS公式Webマガジン builders.flash✨ への掲載",
+      "url": "builders-flash-1",
+      "image": "amplify_vue.png"
+    },
+    "builders-flash-2": {
+      "title": "AWS builders.flash✨ 掲載 その2",
+      "description": "Amplify + Vue.js + Lambda + Amazon Comprehend を活用したハンズオンを、AWS公式Webマガジン builders.flash✨ に掲載",
+      "url": "builders-flash-2",
+      "image": "comprehend_vue.png"
+    }
+  },
+  "works": {
+    "mysite": {
+      "title": "このサイト",
+      "description": "このサイトの作成の経緯や構成についての説明",
+      "url": "mysite",
+      "image": "mysite.png"
+    },
+    "flowerpark": {
+      "title": "フラワーパーク企画（浜松市ハッカソン）",
+      "description": "浜松市ハッカソンのフラワーパークの企画について",
+      "url": "flowerpark",
+      "image": "flowerpark.png"
+    },
+    "shopinfo": {
+      "title": "情報サイトテンプレート",
+      "description": "店舗向けの情報サイトのテンプレート",
+      "url": "shopinfo",
+      "image": "shopinfo.png"
+    }
+  }
+}

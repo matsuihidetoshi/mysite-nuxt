@@ -57,8 +57,35 @@
 <script>
 import { Component, Vue } from 'nuxt-property-decorator'
 import Name from '~/components/Name.vue'
+import contentsMap from '~/data/contents_map.json'
 
 @Component({
+  head () {
+    return {
+      meta: [
+        {
+          hid: 'og:title',
+          property: 'og:title',
+          content: this.contentsMap[this.contentType][this.contentId].title
+        },
+        {
+          hid: 'og:description',
+          property: 'og:description',
+          content: this.contentsMap[this.contentType][this.contentId].description
+        },
+        {
+          hid: 'og:url',
+          property: 'og:url',
+          content: process.env.baseUrl + '/' + this.contentType + '/' + this.contentsMap[this.contentType][this.contentId].url
+        },
+        {
+          hid: 'og:image',
+          property: 'og:image',
+          content: process.env.baseUrl + '/' + this.contentType + '/' + this.contentsMap[this.contentType][this.contentId].image
+        }
+      ]
+    }
+  },
   components: {
     Name
   },
@@ -80,7 +107,8 @@ import Name from '~/components/Name.vue'
     return {
       content: null,
       overlay: true,
-      loaded: false
+      loaded: false,
+      contentsMap
     }
   },
   mounted () {
